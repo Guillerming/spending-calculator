@@ -1,0 +1,29 @@
+{
+    "income": [
+        {
+            "title": "Salary",
+            "amount": 2500
+        }
+    ],
+    "expenses": [
+        {
+            "title": "Fixed saving",
+            "amount": 500
+        }, {
+            "title": "Housing",
+            "amount": 500
+        }, {
+            "title": "Food",
+            "amount": 240
+        }, {
+            "title": "Home Internet",
+            "amount": 12.5
+        }, {
+            "title": "Loans",
+            "amount": 361
+        }, {
+            "title": "Utility invoices",
+            "amount": 100
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+.sidebar {
+    position: sticky;
+    top: 20px;
+}
+.sidebar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.sidebar ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+.sidebar ul li span {
+    display: block;
+    flex: 1 1 100%;
+}
+.sidebar .value {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: var(--bs-white);
+    color: var(--bs-gray-dark);
+    text-align: center;
+    font-weight: 700;
+    margin-right: 5px;
+    font-size: 1.5rem;
+}
+.sidebar .total {
+    margin-top: 10px;
+}
+.sidebar .total b {
+    display: block;
+    padding: 10px 0;
+}

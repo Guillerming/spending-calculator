@@ -1,0 +1,59 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--bs-gray-dark);
+    color: var(--bs-white);
+    font-weight: 300;
+}
+
+.form {}
+
+
+
+.expenses {}
+.expenses p {
+}
+.expenses .title {
+    padding-left: 0;
+}
+.expenses .title.year {
+    font-size: 1.5rem;
+}
+.expenses .title.month {
+    font-size: 1.2rem;
+    position: relative;
+}
+.expenses .title.day {
+    font-size: .6rem;
+    position: relative;
+    left: -30px;
+    margin-bottom: -14px;
+}
+
+
+
+.expenses .past-expenses {}
+
+
+
+.expenses .future-expenses {}
+
+
+
+.expenses .expense .value {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: var(--bs-white);
+    color: var(--bs-gray-dark);
+    text-align: center;
+    font-weight: 700;
+    margin-right: 5px;
+    font-size: 1.5rem;
+}
+.expenses .expense .value.bad { background-color: var(--bs-pink); }
+.expenses .expense .value.good { background-color: var(--bs-teal); }
+.money-rest .value {
+    font-size: 1rem !important;
+}
+.money-rest .value.bad { background-color: var(--bs-pink); }
+.money-rest .value.good { background-color: var(--bs-teal); }
