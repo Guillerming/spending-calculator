@@ -5,8 +5,6 @@
 
     // STOP CONFIG
 
-    $money_rest = $month_budget;
-
     $HTML_PAST = '';
     $HTML_FUTURE = '';
     $HTML_BUDGET = '';
@@ -144,12 +142,15 @@
                                 printBudgetLine( $budget->expenses[$n]->title, ($budget->expenses[$n]->amount * -1) );
                             }
 
+                            $month_budget = $budget_income - $budget_expenses;
+                            $money_rest = $month_budget;
+
                             echo $HTML_BUDGET;
 
                         ?>
                         <li class="total">
                             <span><b>Total available</b></span>
-                            <span><div class="value"><?php $month_budget = $budget_income - $budget_expenses; echo $month_budget; ?></div></span>
+                            <span><div class="value"><?php echo $month_budget; ?></div></span>
                         </li>
                     </ul>
                 </div>

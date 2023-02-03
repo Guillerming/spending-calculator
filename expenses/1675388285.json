@@ -1,0 +1,15 @@
+{
+    "timestamp": 1675388285,
+    "date": {
+        "year": "2023",
+        "month": "02",
+        "day": "03",
+        "hour": "01",
+        "minute": "38",
+        "second": "05"
+    },
+    "expense": {
+        "title": "Testing",
+        "amount": "150"
+    }
+}
